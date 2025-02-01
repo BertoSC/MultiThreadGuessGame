@@ -72,7 +72,7 @@ public class GuessServerWorker implements Runnable{
     }
 
     private void empezarPartida(String[] argumentos) {
-        if (argumentos.length != 2){
+        if (argumentos.length != 2 || jugando){
             out.println("80 ERR");
             return;
         }
