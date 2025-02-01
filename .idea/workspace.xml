@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5406b324-7ab8-4369-87a2-11095e83cd09" name="Changes" comment="">
+    <list default="true" id="5406b324-7ab8-4369-87a2-11095e83cd09" name="Changes" comment="iniciada lógica serverworker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GuessClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GuessServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GuessServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessServerWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager" selected="Application.GuessClient">

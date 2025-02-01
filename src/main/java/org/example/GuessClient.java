@@ -1,5 +1,9 @@
 package org.example;
 
+import javax.net.ssl.SSLServerSocket;
+import javax.net.ssl.SSLServerSocketFactory;
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +14,13 @@ import java.util.Scanner;
 public class GuessClient {
     public static void main(String[] args) {
         try {
-            Socket socket = new Socket("localhost", 57780);
+            SSLSocket socket = null;
+            System.setProperty("javax.net.ssl.trustStore", "src/main/resources/ClientKeys.jks");
+            System.setProperty("javax.net.ssl.trustStorePassword", "87654321");
+            SSLSocketFactory SSLsocket = (SSLSocketFactory) SSLSocketFactory.getDefault();
+            socket = (SSLSocket) SSLsocket.createSocket("localhost", 57780);
+
+            // Socket socket = new Socket("localhost", 57780);
             var flujoIn = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             var flujoOut = new PrintWriter(socket.getOutputStream(), true);
             String inicioServer = flujoIn.readLine();
