@@ -65,10 +65,10 @@ public class GuessServerWorker implements Runnable{
     }
 
     private void mostrarInformacion() {
-        out.println("40 INFO"+
-                "NEW. This command indicates that the client wants to start a new game. As an argument it accept the number of tries the user want to have to guess the number. Example: NEW 8"+
-                        "HELP. The client asks the server for information about the game and the commands to use."+
-                        "QUIT. The client sends the request to terminate the communication with the server.");
+        out.println("40 INFO >> "+
+                "NEW: start a new game (Example: NEW 8) | "+
+                        "HELP: display information about the game | "+
+                        "QUIT: terminate the communication with the server");
     }
 
     private void empezarPartida(String[] argumentos) {
