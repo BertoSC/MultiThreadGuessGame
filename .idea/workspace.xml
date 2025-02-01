@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5406b324-7ab8-4369-87a2-11095e83cd09" name="Changes" comment="SSL Server + SSL Client done">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GuessServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessServerWorker.java" afterDir="false" />
-    </list>
+    <list default="true" id="5406b324-7ab8-4369-87a2-11095e83cd09" name="Changes" comment="SSL Server + SSL Client done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738431627759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SSL Server + SSL Client done">
+      <option name="closed" value="true" />
+      <created>1738432091246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738432091246</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SSL Server + SSL Client done">
+      <option name="closed" value="true" />
+      <created>1738432237340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738432237340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

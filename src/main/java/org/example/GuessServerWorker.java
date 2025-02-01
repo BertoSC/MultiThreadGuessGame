@@ -66,7 +66,8 @@ public class GuessServerWorker implements Runnable{
 
     private void mostrarInformacion() {
         out.println("40 INFO >> "+
-                "NEW: start a new game (Example: NEW 8) | "+
+                "NEW: starts a new game with x number of attempts (Example: NEW 8) | "+
+                "NUM: make a guess in a game (Example: NUM 25) | "+
                         "HELP: display information about the game | "+
                         "QUIT: terminate the communication with the server");
     }
